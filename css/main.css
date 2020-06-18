@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: rgba(0, 0, 0, 0.82);
+}
+
+#root{
+    padding: 10px;
+    height: 100vh;
+    /*background: linear-gradient(90deg, #c2e59c, #64b3f4);*/
+}
+
+.container{
+    background-color: #45ADA8;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border-radius: 5px;
+    margin: 0 0 10px 0;
+}
+
+.card{
+    background-color: #9DE0AD;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+p{
+    min-width: 200px;
+    margin: 10px;
+}
+
+.btn{
+    background-color: #FE4365;
+    color: white;
+    padding: 10px 10px;
+    border-radius: 5px;
+    display: inline-block;
+    cursor: pointer;
+    margin: 10px;
+    box-shadow: 2px 2px 2px grey;
+}
+
+.btn:hover{
+    transform: scale(1.4, 1.4);
+    transition: transform 0.2s ease-out;;
+}
+
+#img{
+    width: 150px;
+    height: 100px;
+    border-radius: 5px;
+    background-size: cover;
+    background-position: center;
+    margin: 10px;
+}
+
+/*background-image: url("../img/bicycle.jpg");*/
+
+.tableRoot{
+    background-color: #FC9D9A;
+    min-width: 220px;
+    display: inline-flex;
+    flex-direction: column;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.tableName{
+    display: inline-flex;
+    background-color: #FE4365;
+    min-width: 220px;
+    padding: 10px;
+    color: white;
+}
+
+table{
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    min-width: 220px;
+    /*text-align: center;*/
+}
+
+.addbtnElem{
+    width: 50px;
+    height: 30px;
+    background-color: #9DE0AD;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.subtractionbtnElem{
+    width: 50px;
+    height: 30px;
+    background-color: #FE4365;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.addbtnElem:hover{
+    transition: box-shadow 0.2s ease-out;
+    box-shadow: 2px 2px 2px grey;
+    /*transition: transform 1.4s ease-out;*/
+    /*transform: rotate(1turn);*/
+}
+
+.subtractionbtnElem:hover{
+    transition: box-shadow 0.2s ease-out;
+    box-shadow: 2px 2px 2px grey;
+    /*transition: transform 1.4s ease-out;*/
+    /*transform: rotate(1turn);*/
+}
